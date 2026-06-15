@@ -1,0 +1,31 @@
+[project]
+name = "cpa-study-api"
+version = "0.1.0"
+description = "CPA theory learning content pipeline and review API"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.34,<1",
+  "python-multipart>=0.0.20,<1",
+  "pydantic-settings>=2.8,<3",
+  "pypdf[crypto]>=5.4,<7",
+  "openai>=1.75,<3",
+  "imageio-ffmpeg>=0.6,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx>=0.28,<1",
+  "pytest>=8.3,<9",
+  "pyyaml>=6.0,<7",
+]
+document = [
+  "docling>=2.30,<3",
+]
+ocr = [
+  "paddleocr>=3,<4",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

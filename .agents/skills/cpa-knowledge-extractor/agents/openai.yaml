@@ -1,0 +1,5 @@
+interface:
+  display_name: "CPA 知识拆解"
+  short_description: "将CPA教材章节拆成可独立学习、审核和引用的最小知识单元"
+  default_prompt: "使用 $cpa-knowledge-extractor 从CPA教材章节提取知识点。"
+

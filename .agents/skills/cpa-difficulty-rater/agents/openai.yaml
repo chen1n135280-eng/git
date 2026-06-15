@@ -1,0 +1,5 @@
+interface:
+  display_name: "CPA 难度评级"
+  short_description: "依据统一量表评定CPA知识点的一至五星内容难度并说明理由"
+  default_prompt: "使用 $cpa-difficulty-rater 为CPA知识点评定1至5星。"
+

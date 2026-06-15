@@ -1,0 +1,27 @@
+node_modules/
+.next/
+out/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+*.tsbuildinfo
+.env
+.env.local
+data/
+api/data/
+web/.next/
+*.db
+*.sqlite3
+*.log
+
+# Private CPA source materials
+*.pdf
+*.mp4
+*.wav
+*.m4a
+*.srt
+*.vtt
+api/data/private/
+api/data/uploads/

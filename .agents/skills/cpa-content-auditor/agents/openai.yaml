@@ -1,0 +1,5 @@
+interface:
+  display_name: "CPA 内容审校"
+  short_description: "检查CPA知识卡的教材来源、讲解完整性、冲突和会计分录"
+  default_prompt: "使用 $cpa-content-auditor 审核CPA知识卡的完整性与分录。"
+

@@ -1,0 +1,5 @@
+interface:
+  display_name: "CPA 资料解析"
+  short_description: "解析CPA教材并私密处理教学素材，保留可核验的教材页码来源"
+  default_prompt: "使用 $cpa-source-ingest 解析CPA教材并保留页码来源。"
+

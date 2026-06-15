@@ -1,0 +1,4 @@
+interface:
+  display_name: "CPA Six-Step Cards"
+  short_description: "Build active six-step CPA theory learning cards"
+  default_prompt: "Use $cpa-six-step-card-builder to convert CPA theory cards into six-step interactive learning flows."
